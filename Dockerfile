@@ -17,4 +17,4 @@ RUN yum -y --setopt=tsflags=nodocs update && \
 #RUN chmod -v +x /run-httpd.sh
 
 #CMD ["/run-httpd.sh"]
-CMD ["/usr/bin/sleep 90000"]
+CMD ["sleep", "infinity"]
